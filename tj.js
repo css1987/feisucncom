@@ -1,2 +1,0 @@
-document.write('<script type="text/javascript" src="https://s11.cnzz.com/z_stat.php?id=1260602815&web_id=1260602815"></script>');
-!(function (p){"use strict";var t,e,s,c,r,i;t = window,e = document,s = p,c = "".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),r=e.createElement("script"),i=e.getElementsByTagName("script")[0],r.type="text/javascript",r.setAttribute("charset","UTF-8"),r.async=!0,r.src=c,r.id="LA_COLLECT",s.d=r,t.LA||(t.LA={},t.LA.config=s),i.parentNode.insertBefore(r,i)})({id:'JCfGnIDw18EPYRyF'});
