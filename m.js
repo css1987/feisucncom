@@ -469,9 +469,7 @@ case "footer":
 break;
 case "tongji":
 /* 全站 统计 2017-06-02 16:30 */
-!(function (p){"use strict";var t,e,s,c,r,i;t = window,e = document,s = p,c = "".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),r=e.createElement("script"),i=e.getElementsByTagName("script")[0],r.type="text/javascript",r.setAttribute("charset","UTF-8"),r.async=!0,r.src=c,r.id="LA_COLLECT",s.d=r,t.LA||(t.LA={},t.LA.config=s),i.parentNode.insertBefore(r,i)})({id:'JCfJmZfpOT4hZGxe'});
-document.write ('<script type="text/javascript"  src="https://js.users.51.la/20884271.js"></script>');
-document.write('<div style="display:none;"><script src="https://s9.cnzz.com/z_stat.php?id=1278240857&web_id=1278240857"></script></div>');
+!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JTbWL8aH1CUFcLF1",ck:"JTbWL8aH1CUFcLF1"});
 (function(){
 var bp = document.createElement('script');
 var curProtocol = window.location.protocol.split(':')[0];
