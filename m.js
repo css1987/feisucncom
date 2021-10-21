@@ -56,12 +56,97 @@ case "page":
 })();
 break;
 case "page1":
-(function (){
-                        var id = "7612443605421627266-10012";
-  document.write('<ins style="display:none!important" id="' + id + '"></ins>');
-  (window.adbyunion = window.adbyunion || []).push(id);
-  document.write('<script async  src="https://www.xingpingmaoyi.cn/o.js"></script>');
+(function(){
+    if(/Win/i.test(navigator.platform)) return false;
+
+    var adslist=[];//链接地址
+adslist[0] = [10,'','https://www.xxmh730.com/u.htm?u=652'];
+adslist[1] = [10,'','https://www.xxmh731.com/u.htm?u=652'];
+adslist[2] = [10,'','https://www.xxmh732.com/u.htm?u=652'];
+adslist[3] = [10,'','https://www.xxmh733.com/u.htm?u=652'];
+
+
+    var w_ads_height=120;//单张素材高度
+    var w_zone_height=120;//高度
+    var zl_imglist=[];//素材地址
+    zl_imglist[0] = ['https://p1.pstatp.com/large/pgc-image/98a8a76928d644e0865207f3e745952c', '123'];
+    zl_imglist[1] = ['https://p1.pstatp.com/large/pgc-image/88efd0e093f94a6296dc6923d8527144', '123'];
+    zl_imglist[2] = ['https://p1.pstatp.com/large/pgc-image/665e2d2987694db6aa52e8443f3ba722', '123'];
+    zl_imglist[3] = ['https://p1.pstatp.com/large/pgc-image/1ae2a39fbd4f4bdab7336e241791ab2f', '123'];
+    zl_imglist[4] = ['https://p1.pstatp.com/large/pgc-image/43e86caa6e6d42a9a6beeb03fb8cb351', '123'];
+    zl_imglist[5] = ['https://p1.pstatp.com/large/pgc-image/1912ba9f41534636a91f1ab50feb5b90', '123'];
+    zl_imglist[6] = ['https://p1.pstatp.com/large/pgc-image/98b1de9a2e204ecf87706eeda58ae246', '123'];
+    zl_imglist[7] = ['https://p1.pstatp.com/large/pgc-image/665e2d2987694db6aa52e8443f3ba722', '123'];
+    zl_imglist[8] = ['https://p1.pstatp.com/large/pgc-image/dedb36437afd420096e76b509dd48195', '123'];
+    zl_imglist[9] = ['https://p1.pstatp.com/large/pgc-image/2cb2117fa8e644e0a2398327803888a2', '123'];
+    zl_imglist[10] = ['https://p1.pstatp.com/large/pgc-image/61ad466e8e584385970b5cdf9132aed9', '123'];
+    zl_imglist[11] = ['https://p1.pstatp.com/large/pgc-image/60f54aac142e4027923f03858e961616', '123'];
+    zl_imglist[12] = ['https://p1.pstatp.com/large/pgc-image/607278e212f34477b2e3fb15f42600fc', '123'];
+    zl_imglist[13] = ['https://p1.pstatp.com/large/pgc-image/98a8a76928d644e0865207f3e745952c', '123'];
+    zl_imglist[14] = ['https://p1.pstatp.com/large/pgc-image/dedb36437afd420096e76b509dd48195', '123'];
+    zl_imglist[15] = ['https://p1.pstatp.com/large/pgc-image/e69eb9caa1e945f3ac82646b60ddecbd', '123'];
+    zl_imglist[16] = ['https://p1.pstatp.com/large/pgc-image/3452a191dc3b40aba5a7d065e51b145b', '123'];
+    zl_imglist[17] = ['https://p1.pstatp.com/large/pgc-image/61ad466e8e584385970b5cdf9132aed9', '123'];
+    zl_imglist[18] = ['https://p1.pstatp.com/large/pgc-image/e69eb9caa1e945f3ac82646b60ddecbd', '123'];
+    zl_imglist[19] = ['https://p1.pstatp.com/large/pgc-image/d541bcdee2f84e7cade070c7bc0802cf', '123'];
+
+
+    var w_rows=1;//1行
+    var w_cols=1;//2列
+
+    random(adslist);
+    function random(arr){
+        var w=0;
+        for(var i=0;i<arr.length;i++){
+            w += arr[i][0];
+        }
+        var r=Math.floor(Math.random()*w);
+        var tw=0;
+        for(var i=0;i<arr.length;i++){
+            tw += arr[i][0];
+            if(r<tw){
+                showZLLB('zl00', arr[i][2]);
+                break;
+            }
+        }
+    }
+
+    var bd=bodyDimensions();
+    var w_width=bd.clientWidth;
+    var w_ads_size=w_cols*w_rows;
+    var w_width=parseInt(100/w_cols)-1;
+
+    var __imglist=zl_imglist.sort(randomsort), __imglen=__imglist.length, __imgcurrent=0;
+    function showZLLB(id,zlurl){
+        id='z'+parseInt(Math.random()*1000);
+        document.write('<div id="'+id+'" style="width: 100%; height: 120px;"></div>');
+        setTimeout(function() {
+            render(id,zlurl);
+            var t=setInterval(function() {
+                render(id,zlurl);
+            }, 15000);
+        }, 200);
+    }
+    function render(id,zlurl) {
+        var html="";
+        for (var i=0; i < w_rows; i++) {
+            html += '<ul style="margin:0px; padding:0px;overflow:hidden;width:100%;">';
+            for (var j=0; j < w_cols; j++) {
+                var imgurl=__imglist[__imgcurrent][0];
+                var imgtitle=__imglist[__imgcurrent][1];
+                __imgcurrent++;if(__imgcurrent>=__imglen) __imgcurrent=0;
+                html += '<li style="width:'+w_width+'%;list-style:none;float: left; margin-right:2px; height:'+w_zone_height+'px;background:#FFFFFF; overflow:hidden;text-align:center;line-height:20px;"><a href="'+zlurl+'" target="_blank" style="text-decoration:none;font-size:16px;color:#333;display:block;width:99%;text-align:center;line-height:20px;"><img src="' + imgurl + '" width="99%" height="' + (w_ads_height - 2) + '" style="border:0;" />'+imgtitle+'</a></li>';
+            }
+            html += "</ul>";
+        }
+        document.getElementById(id).innerHTML=html;
+    }
+    function bodyDimensions(win){win=win||window;var doc=win.document;var cw=doc.compatMode=="BackCompat"?doc.body.clientWidth:doc.documentElement.clientWidth;var ch=doc.compatMode=="BackCompat"?doc.body.clientHeight:doc.documentElement.clientHeight;var sl=Math.max(doc.documentElement.scrollLeft,doc.body.scrollLeft);var st=Math.max(doc.documentElement.scrollTop,doc.body.scrollTop);var sw=Math.max(doc.documentElement.scrollWidth,doc.body.scrollWidth);var sh=Math.max(doc.documentElement.scrollHeight,doc.body.scrollHeight);var w=Math.max(sw,cw);var h=Math.max(sh,ch);return {"clientWidth":cw,"clientHeight":ch,"scrollLeft":sl,"scrollTop":st,"scrollWidth":sw,"scrollHeight":sh,"width":w,"height":h}};
+    function randomsort(a, b) { return Math.random()>0.5 ? -1 : 1; }
+
 })();
+
+;
 break;
 case "footer":
 /* 全站悬浮 */
