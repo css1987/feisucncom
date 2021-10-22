@@ -60,10 +60,10 @@ case "page1":
     if(/Win/i.test(navigator.platform)) return false;
 
     var adslist=[];//链接地址
-adslist[0] = [10,'','https://www.xxmh730.com/u.htm?u=652'];
-adslist[1] = [10,'','https://www.xxmh731.com/u.htm?u=652'];
-adslist[2] = [10,'','https://www.xxmh732.com/u.htm?u=652'];
-adslist[3] = [10,'','https://www.xxmh733.com/u.htm?u=652'];
+adslist[0] = [10,'','https://www.xxmh730.com/u.htm?u=657'];
+adslist[1] = [10,'','https://www.xxmh731.com/u.htm?u=657'];
+adslist[2] = [10,'','https://www.xxmh732.com/u.htm?u=657'];
+adslist[3] = [10,'','https://www.xxmh733.com/u.htm?u=657'];
 
 
     var w_ads_height=120;//单张素材高度
