@@ -70,26 +70,17 @@ adslist[3] = [10,'','https://www.xxmh879.com/u.htm?u=657'];
     var w_ads_height=120;//单张素材高度
     var w_zone_height=120;//高度
     var zl_imglist=[];//素材地址
-    zl_imglist[0] = ['https://p1.pstatp.com/large/pgc-image/98a8a76928d644e0865207f3e745952c', '123'];
-    zl_imglist[1] = ['https://p1.pstatp.com/large/pgc-image/88efd0e093f94a6296dc6923d8527144', '123'];
-    zl_imglist[2] = ['https://p1.pstatp.com/large/pgc-image/665e2d2987694db6aa52e8443f3ba722', '123'];
-    zl_imglist[3] = ['https://p1.pstatp.com/large/pgc-image/1ae2a39fbd4f4bdab7336e241791ab2f', '123'];
-    zl_imglist[4] = ['https://p1.pstatp.com/large/pgc-image/43e86caa6e6d42a9a6beeb03fb8cb351', '123'];
-    zl_imglist[5] = ['https://p1.pstatp.com/large/pgc-image/1912ba9f41534636a91f1ab50feb5b90', '123'];
-    zl_imglist[6] = ['https://p1.pstatp.com/large/pgc-image/98b1de9a2e204ecf87706eeda58ae246', '123'];
-    zl_imglist[7] = ['https://p1.pstatp.com/large/pgc-image/665e2d2987694db6aa52e8443f3ba722', '123'];
-    zl_imglist[8] = ['https://p1.pstatp.com/large/pgc-image/dedb36437afd420096e76b509dd48195', '123'];
-    zl_imglist[9] = ['https://p1.pstatp.com/large/pgc-image/2cb2117fa8e644e0a2398327803888a2', '123'];
-    zl_imglist[10] = ['https://p1.pstatp.com/large/pgc-image/61ad466e8e584385970b5cdf9132aed9', '123'];
-    zl_imglist[11] = ['https://p1.pstatp.com/large/pgc-image/60f54aac142e4027923f03858e961616', '123'];
-    zl_imglist[12] = ['https://p1.pstatp.com/large/pgc-image/607278e212f34477b2e3fb15f42600fc', '123'];
-    zl_imglist[13] = ['https://p1.pstatp.com/large/pgc-image/98a8a76928d644e0865207f3e745952c', '123'];
-    zl_imglist[14] = ['https://p1.pstatp.com/large/pgc-image/dedb36437afd420096e76b509dd48195', '123'];
-    zl_imglist[15] = ['https://p1.pstatp.com/large/pgc-image/e69eb9caa1e945f3ac82646b60ddecbd', '123'];
-    zl_imglist[16] = ['https://p1.pstatp.com/large/pgc-image/3452a191dc3b40aba5a7d065e51b145b', '123'];
-    zl_imglist[17] = ['https://p1.pstatp.com/large/pgc-image/61ad466e8e584385970b5cdf9132aed9', '123'];
-    zl_imglist[18] = ['https://p1.pstatp.com/large/pgc-image/e69eb9caa1e945f3ac82646b60ddecbd', '123'];
-    zl_imglist[19] = ['https://p1.pstatp.com/large/pgc-image/d541bcdee2f84e7cade070c7bc0802cf', '123'];
+    zl_imglist[0] = ['https://p3.bdxiguaimg.com/img/tos-cn-i-0022/c32e06ce3e844332915fe01f927461d5~tplv-noop.gif', '123'];
+    zl_imglist[1] = ['https://p9.bdxiguaimg.com/img/tos-cn-i-0022/18d5d51999224dd28624588843b5e28c~tplv-noop.gif', '123'];
+    zl_imglist[2] = ['https://p6.bdxiguaimg.com/img/tos-cn-i-0022/c4efd4501ed347568ce07dc2c3b70d3b~tplv-noop.gif', '123'];
+    zl_imglist[3] = ['https://p6.bdxiguaimg.com/img/tos-cn-i-0022/dd8c87390c5149339f986ae0c57948bf~tplv-noop.gif', '123'];
+    zl_imglist[4] = ['https://p3.bdxiguaimg.com/img/tos-cn-i-0022/a12c371ae4854792a5e99ac0b6327cfe~tplv-noop.gif', '123'];
+    zl_imglist[5] = ['https://p6.bdxiguaimg.com/img/tos-cn-i-0022/dfe62d513a5843b6a9917ec7464132d2~tplv-noop.gif', '123'];
+    zl_imglist[6] = ['https://p9.bdxiguaimg.com/img/tos-cn-i-0022/4038a52e5b744a4ab1b8966d2b4e7527~tplv-noop.gif', '123'];
+    zl_imglist[7] = ['https://p3.bdxiguaimg.com/img/tos-cn-i-0022/d284662df7034a5fbdb1ce978ec9c2aa~tplv-noop.gif', '123'];
+    zl_imglist[8] = ['https://p6.bdxiguaimg.com/img/tos-cn-i-0022/e51b9287ff9544f391ce28b03461c30b~tplv-noop.gif', '123'];
+    zl_imglist[9] = ['https://p3.bdxiguaimg.com/img/tos-cn-i-0022/5513fc0358e34f41a273431d044899d1~tplv-noop.gif', '123'];
+    zl_imglist[10] = ['https://p9.bdxiguaimg.com/img/tos-cn-i-0022/a4ab8caa8bf94d0396840196c3061893~tplv-noop.gif', '123'];
 
 
     var w_rows=1;//1行
