@@ -42,7 +42,8 @@ case "head":
 //document.write('');
 break;
 case "atitle":
-break;
+break;break;
+
 case "listpage":
 case "zhong":
 case "infopage":
