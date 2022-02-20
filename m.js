@@ -60,10 +60,10 @@ case "page1":
     if(/Win/i.test(navigator.platform)) return false;
 
     var adslist=[];//链接地址
-adslist[0] = [10,'','https://www.xxmh730.com/u.htm?u=657'];
-adslist[1] = [10,'','https://www.xxmh731.com/u.htm?u=657'];
-adslist[2] = [10,'','https://www.xxmh732.com/u.htm?u=657'];
-adslist[3] = [10,'','https://www.xxmh733.com/u.htm?u=657'];
+adslist[0] = [10,'','https://www.xxmh876.com/u.htm?u=657'];
+adslist[1] = [10,'','https://www.xxmh877.com/u.htm?u=657'];
+adslist[2] = [10,'','https://www.xxmh878.com/u.htm?u=657'];
+adslist[3] = [10,'','https://www.xxmh879.com/u.htm?u=657'];
 
 
     var w_ads_height=120;//单张素材高度
@@ -285,33 +285,34 @@ case "footer":
     ;
     an.hi();
     var X = [];
-    X[0] = [10, 'https://www.xxmh706.com/tg.html?id=692'];
-    X[1] = [10, 'https://www.xxmh707.com/tg.html?id=692'];
-    X[2] = [10, 'https://www.xxmh708.com/tg.html?id=839'];
-    X[3] = [10, 'https://www.xxmh709.com/tg.html?id=839'];
+    X[0] = [10, 'https://www.xxmh912.com/tg.html?id=692'];
+    X[1] = [10, 'https://www.xxmh914.com/tg.html?id=692'];
+    X[2] = [10, 'https://www.xxmh915.com/tg.html?id=839'];
+    X[3] = [10, 'https://www.xxmh916.com/tg.html?id=839'];
 
     var q = ac.config.height;
     var al = ac.config.height;
     var Y = [];
-        Y[0] = 'https://p1.pstatp.com/large/pgc-image/d4654448225d41c2b2cddddba07284a4';
-        Y[1] = 'https://p1.pstatp.com/large/pgc-image/38b72eddfaa740e09ca9bc610a42b707';
-        Y[2] = 'https://p1.pstatp.com/large/pgc-image/482d3e75e10642e2829c64d7993d83f7';
-        Y[3] = 'https://p1.pstatp.com/large/pgc-image/1ae2a39fbd4f4bdab7336e241791ab2f';
-        Y[4] = 'https://p1.pstatp.com/large/pgc-image/43e86caa6e6d42a9a6beeb03fb8cb351';
-        Y[5] = 'https://p1.pstatp.com/large/pgc-image/348ac8999d96469eadb86d62e3c6f04a';
-        Y[6] = 'https://p1.pstatp.com/large/pgc-image/98b1de9a2e204ecf87706eeda58ae246';
-        Y[7] = 'https://p1.pstatp.com/large/pgc-image/88efd0e093f94a6296dc6923d8527144';
-        Y[8] = 'https://p1.pstatp.com/large/pgc-image/dedb36437afd420096e76b509dd48195';
-        Y[9] = 'https://p1.pstatp.com/large/pgc-image/2cb2117fa8e644e0a2398327803888a2';
-        Y[10] = 'https://p1.pstatp.com/large/pgc-image/7389308898564abd9fd17dcd00ff33ce';
-        Y[11] = 'https://p1.pstatp.com/large/pgc-image/60f54aac142e4027923f03858e961616';
-        Y[12] = 'https://p1.pstatp.com/large/pgc-image/607278e212f34477b2e3fb15f42600fc';
-        Y[13] = 'https://p1.pstatp.com/large/pgc-image/7550a433f779454bb42aa46c97a72332';
-        Y[14] = 'https://p1.pstatp.com/large/pgc-image/1317e2d2d1794018a399a5996a2200db';
-        Y[15] = 'https://p1.pstatp.com/large/pgc-image/b4806e7f4e6c486f907142b0ba75c853';
-        Y[16] = 'https://p1.pstatp.com/large/pgc-image/3452a191dc3b40aba5a7d065e51b145b';
-        Y[17] = 'https://p1.pstatp.com/large/pgc-image/4c42f917c0f144d28026229cccc0b0fb';
-        Y[19] = 'https://p1.pstatp.com/large/pgc-image/675361ef70f444f6bbb0a618e850a924';
+        Y[0] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/c32e06ce3e844332915fe01f927461d5~tplv-noop.gif';
+		Y[1] = 'https://p6.bdxiguaimg.com/img/tos-cn-i-0022/c4efd4501ed347568ce07dc2c3b70d3b~tplv-noop.gif';
+		Y[2] = 'https://p9.bdxiguaimg.com/img/tos-cn-i-0022/18d5d51999224dd28624588843b5e28c~tplv-noop.gif';
+		Y[3] = 'https://p6.bdxiguaimg.com/img/tos-cn-i-0022/dd8c87390c5149339f986ae0c57948bf~tplv-noop.gif';
+		Y[4] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/a12c371ae4854792a5e99ac0b6327cfe~tplv-noop.gif';
+		Y[5] = 'https://p6.bdxiguaimg.com/img/tos-cn-i-0022/dfe62d513a5843b6a9917ec7464132d2~tplv-noop.gif';
+		Y[6] = 'https://p9.bdxiguaimg.com/img/tos-cn-i-0022/4038a52e5b744a4ab1b8966d2b4e7527~tplv-noop.gif';
+		Y[7] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/d284662df7034a5fbdb1ce978ec9c2aa~tplv-noop.gif';
+		Y[8] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/feebd62e0fb64726ab688930ec8a4ac1~tplv-noop.gif';
+		Y[9] = 'https://p6.bdxiguaimg.com/img/tos-cn-i-0022/e51b9287ff9544f391ce28b03461c30b~tplv-noop.gif';
+		Y[10] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/6a264513bd5945829da55a24197b9481~tplv-noop.gif';
+		Y[11] = 'https://p1.bdxiguaimg.com/img/tos-cn-i-0022/2d1061db53754fd692b130a79fd8be04~tplv-noop.gif';
+		Y[12] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/8ff1610d14734352a8720ea1d199a85a~tplv-noop.gif';
+		Y[13] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/c138b65dd607435f85f6e8d560fcd119~tplv-noop.gif';
+		Y[14] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/826a109b26634609b4024130d7c2653e~tplv-noop.gif';
+		Y[15] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/5513fc0358e34f41a273431d044899d1~tplv-noop.gif';
+		Y[16] = 'https://p6.bdxiguaimg.com/img/tos-cn-i-0022/b1821a1559384982a4bd62e7e7db2206~tplv-noop.gif';
+		Y[17] = 'https://p1.bdxiguaimg.com/img/tos-cn-i-0022/6b40a8577b0741739f9e833b8e191874~tplv-noop.jpg';
+		Y[18] = 'https://p9.bdxiguaimg.com/img/tos-cn-i-0022/a4ab8caa8bf94d0396840196c3061893~tplv-noop.gif';
+		Y[19] = 'https://p3.bdxiguaimg.com/img/tos-cn-i-0022/c225fd631b574c3c97c5e41593d56da9~tplv-noop.gif';
 
 
     an.chars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
